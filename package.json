@@ -4,9 +4,13 @@
   "description": "CE V3 Performance Script",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "Ian Salmon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IanGSalmon/BulkV3Time.git"
+  },
+  "author": "IanGSalmon",
   "license": "ISC",
   "dependencies": {
     "form-data": "^3.0.0",

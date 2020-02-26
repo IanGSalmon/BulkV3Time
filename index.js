@@ -72,13 +72,11 @@ function postNewBulk(url) {
 
         const end = new Date();
         const callTime = (end - start)/1000;
-        console.log(`Job started at: ${start}`)
-        console.log(`Job finished at: ${end}`)
-        console.log(`Total time: ${callTime}`)
-        console.log(`Total records downloaded: ${recordsCount}`)
+        console.log(`Total time: ${callTime} seconds`);
+        console.log(`Total records downloaded: ${recordsCount}`);
       }
     })
-    .catch(err => console.log(err))
+    .catch(err => console.log(err));
 };
 
 function checkStatus(id) {
@@ -96,5 +94,3 @@ function checkStatus(id) {
 }
 
 postNewBulk(postBulkURL);
-
-
