@@ -9,7 +9,7 @@ npm install
 ## Set environment variables for BASE_URL, USER_SECRET, ORG_SECRET
 - E.g. ~/.bash_profile
 ```bash
-export BASE_URL='https://staging.cloud-elements.com'
+export BASE_URL='https://api.cloud-elements.com'
 export USER_SECRET='asdfghjklasdfghV7ITgw5h3ZbcuxC5HNDD5pXqPqSU='
 export ORG_SECRET='asdfghjklasdfghMnmVYOkkCOXkMZZk5yMgw0raZk/4='
 ```
